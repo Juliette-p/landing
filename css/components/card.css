@@ -1,0 +1,40 @@
+.destinations {
+  display: flex;
+  justify-content: space-evenly;
+  margin: auto;
+  padding: 20px;
+}
+
+.destination-card {
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.153);
+  background-position: center;
+  background-size: cover;
+  height: auto;
+  border-radius: 10px;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 20px;
+}
+
+.destination-card h3 {
+  color: white;
+  font-size: 18px;
+}
+.destination-card p {
+  color: white;
+  font-size: 11px;
+}
+
+.mars {
+  background-image: url('../../images/IMG_20210115_004759.jpg');
+}
+
+.neptune {
+  background-image: url('../../images/IMG_20210115_004804.jpg');
+}
+
+.jupiter {
+  background-image: url('../../images/IMG_20210115_004801.jpg');
+}
